@@ -1,0 +1,29 @@
+body {
+    width: auto;
+    height: 800px;
+    margin: 15px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+
+/* .spin:hover{
+    animation:spin 4s linear infinite;
+}
+
+.spinback:hover {
+    animation:spinback 4s linear infinite;
+} */
+
+/*@keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+@keyframes spinback {
+    100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); }
+} */
+
+.gear:hover .spin {transform : rotateZ(100deg);}
+.gear:hover .spinback {transform : rotateZ(-100deg);}
+
+.spin, .spinback {transition : all 1s ease-in-out;}
