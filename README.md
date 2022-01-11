@@ -1,2 +1,2 @@
-# Gear
+# Gear ⚙️
 Css exercice
